@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #2c3e50;
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #7f8c8d;
+}
+
+/* Blog section layout using Flexbox */
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.blog h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Individual blog post styling */
+article {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+article:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+article h3 {
+  margin-top: 0;
+  color: #2980b9;
+  font-size: 1.5em;
+}
+
+article p {
+  white-space: pre-line;
+  color: #555;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9em;
+  color: #95a5a6;
+}
+
+footer a {
+  color: #2980b9;
+  text-decoration: none;
+}
